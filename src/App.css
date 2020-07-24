@@ -1,0 +1,100 @@
+body{
+  font-family: 'Amatic SC', cursive;
+font-family: 'Amiri', serif;
+font-family: 'Modak', cursive;
+font-family: 'Rajdhani', sans-serif;
+	background: #f1f1f1;
+}
+
+
+nav.nav-center ul{
+  text-align: center;
+  
+}
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+  
+}
+.loader {
+  position: absolute;
+  top :0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  }
+  
+nav.nav-center ul li a {
+  display: inline-block;
+  font-size:20px;
+  
+}
+
+
+
+.navbar{
+	width:100vw;
+
+	
+}
+
+
+
+ul.centre{
+	justify-content: center;
+}
+
+
+
+#showcase{
+		margin-top:5% !important;
+	}
+
+#showcase .showcase-right{
+
+margin-top: 40%;
+margin-left: 20%;
+margin-right: 10%;
+
+  }
+  
+  .show{
+    border-radius: 15px;
+  }
+
+
+	#showcase img{
+		margin-left: 0.2%;
+		
+
+	}
+
+hr.yessss {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.yessss:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+#gallery{
+  width:100vw;
+}
+
+
+@media only screen and (max-width: 780px){
+	#showcase img{
+		width: 100vw;
+	}
+}
