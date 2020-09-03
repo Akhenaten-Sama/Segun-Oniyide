@@ -38,6 +38,19 @@ class  App extends React.Component {
      	origin: 'bottom'
      });
 
+     sr.reveal('.about-me', {
+      duration: 2000,
+      origin: 'left',
+      delay:1000,
+      distance:'300px'
+    });
+    sr.reveal('.aside', {
+      duration: 2500,
+      origin: 'right',
+      delay:2000,
+      distance:'300px'
+    });
+
      sr.reveal('.showcase-left', {
      	duration: 3000,
      	origin: 'left',
@@ -45,7 +58,7 @@ class  App extends React.Component {
      });
 
      sr.reveal('.showcase-right', {
-     	duration: 2000,
+     	duration: 1000,
        origin: 'right',
        delay: 2000,
      	distance:'300px'

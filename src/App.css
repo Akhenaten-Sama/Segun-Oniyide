@@ -1,9 +1,23 @@
+html{
+  position: relative;
+    min-height: 100%
+}
+
 body{
-  font-family: 'Amatic SC', cursive;
-font-family: 'Amiri', serif;
-font-family: 'Modak', cursive;
-font-family: 'Rajdhani', sans-serif;
-	background: #f1f1f1;
+  background: #f1f1f1;
+  font-family: 'Zilla Slab', serif;
+  line-height: 1.5;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo-header{
+  width: 100%;
+  text-align: center;
+}
+
+nav{
+  font-family: 'Zilla Slab', serif;
 }
 
 
@@ -27,23 +41,48 @@ nav.nav-center ul li {
   
 nav.nav-center ul li a {
   display: inline-block;
-  font-size:20px;
+  font-size:1.2rem;
   
 }
 
 
 
 .navbar{
-	width:100vw;
+	width:90vw;
 
 	
 }
 
 
+article, aside{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 
 ul.centre{
 	justify-content: center;
 }
+
+aside#sidebar{
+float:right;
+width:30%;
+padding: 0.3rem;
+margin: 0.2rem;
+margin-top: 0.6rem;}
+
+article#about-me{
+  float:left;
+  width:60%;
+}
+
+.containerdiv{
+  width:80%;
+  margin:auto;
+  
+
+
+}
+
 
 
 
@@ -60,7 +99,7 @@ margin-right: 10%;
   }
   
   .show{
-    border-radius: 15px;
+    border-radius: 0.9rem;
   }
 
 
@@ -93,8 +132,34 @@ hr.yessss:after {
 }
 
 
+footer {
+  clear: both;
+  position: relative;
+  height: 8%;
+  margin-top: -200px;
+}
+
+
 @media only screen and (max-width: 780px){
 	#showcase img{
 		width: 100vw;
-	}
+  }
+  
+  aside#sidebar, article#about-me{
+    float: none;
+    text-align: center;
+    width: 100%;
+    }
+    aside#sidebar{
+      margin-bottom:3%; }
+    
+  footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:3%;
+    margin-top: -200px;
+    
+  }
 }

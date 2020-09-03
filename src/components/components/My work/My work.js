@@ -9,9 +9,9 @@ const MyWork = () => (
     <div class="row">
       <h4 class='center '>
         <span class='teal-text'>
-          What
+          Some  
         </span> 
-               I do
+               Works
       </h4>
       
       

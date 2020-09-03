@@ -1,4 +1,5 @@
 import React from 'react';
+import Logo from '../../../Logo.png'
 
 
 const Navbar = () => { 
@@ -10,16 +11,17 @@ const Navbar = () => {
     return (
 
 <div>
-<a href='/'><h2 className='center grey-text'>Oniyide Segun</h2></a>
+<div className='logo-header'><a href='/' ><img src={Logo} alt='logo' width='150' /></a>
+</div>
 
+    <nav className="nav-center grey lighten-4 z-depth-0">
 
-	<nav className="nav-center grey lighten-4 z-depth-0">
     <div class="nav-wrapper container">
       
-        <a href='#' data-target='mobile-nav' class='sidenav-trigger'>
+        <a href='#' data-target='mobile-nav' width='300' class='sidenav-trigger right'>
         <i className='material-icons grey'>menu</i></a>
         <ul className="hide-on-med-and-down centre ">
-            <li><a href="/Mywork" class="link  black-text">My Work</a></li>
+            <li><a href="/Mywork" class="link  black-text">Gallery</a></li>
             <li><a href="/about" class="link black-text">About</a></li>
             <li><a href="/contacts" class="link black-text">Contact</a></li>
         </ul>
