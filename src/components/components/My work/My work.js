@@ -9,9 +9,9 @@ const MyWork = () => (
     <div class="row">
       <h4 class='center '>
         <span class='teal-text'>
-          Some  
+          Some&nbsp;
         </span> 
-               Works
+              Works
       </h4>
       
       
@@ -61,7 +61,7 @@ const MyWork = () => (
 	<section id='gallery' class="section section-gallery scrollspy">
   <div class="container">
     <h4 class="center">
-      <span class="teal-text">Photo</span>
+      <span class="teal-text">Photo</span>&nbsp;
       Gallery
     </h4>
     <div class="row">

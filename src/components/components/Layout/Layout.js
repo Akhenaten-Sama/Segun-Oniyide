@@ -7,14 +7,14 @@ import Footer from '../Footer/footer'
 
 
 const LayOut = (props)=> { 
-
+const {handleClick} = props
 
 
     return(
 
 <div>
 
-<Navbar />
+<Navbar handleClick={handleClick}/>
 {props.children}
 <Footer />
 

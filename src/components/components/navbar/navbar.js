@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../../../Logo.png'
 
 
-const Navbar = () => { 
+const Navbar = ({handleClick}) => { 
     
     
 
@@ -11,19 +11,21 @@ const Navbar = () => {
     return (
 
 <div>
+<div className='switcher'><span><i onClick={handleClick} className="fa  fa-moon-o" aria-hidden="true"></i></span></div>
 <div className='logo-header'><a href='/' ><img src={Logo} alt='logo' width='150' /></a>
+
 </div>
 
-    <nav className="nav-center grey lighten-4 z-depth-0">
+    <nav className="nav-center transparent z-depth-0">
 
-    <div class="nav-wrapper container">
+    <div class="nav-wrapper container ">
       
         <a href='#' data-target='mobile-nav' width='300' class='sidenav-trigger right'>
         <i className='material-icons grey'>menu</i></a>
-        <ul className="hide-on-med-and-down centre ">
-            <li><a href="/Mywork" class="link  black-text">Gallery</a></li>
-            <li><a href="/about" class="link black-text">About</a></li>
-            <li><a href="/contacts" class="link black-text">Contact</a></li>
+        <ul className="hide-on-med-and-down centre black-text ">
+            <li><a href="/Mywork" class="link ">Gallery</a></li>
+            <li><a href="/about" class="link ">About</a></li>
+            <li><a href="/contacts" class="link">Contact</a></li>
         </ul>
 
         </div>
