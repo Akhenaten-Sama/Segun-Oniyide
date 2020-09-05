@@ -13,16 +13,16 @@ const ContactMe = () => (
         <div class="card-panel grey darken-3 white-text center">
           <i class="material-icons">email</i>
           <h5>Contact Us For Booking</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores vel maxime molestias! Ad repudiandae, natus!</p>
+          <p>You can reach out to us from this address</p>
         </div>
-        <ul class="collection with-header">
+        <ul class="collection with-header black-text ">
           <li class="collection-header">
             <h4>Location</h4>
           </li>
           <li class="collection-item">
        University College Hospital
           </li>
-          <li class="collection-item">
+          <li class="collection-item ">
             Alexander Brown Hall
           </li>
           <li class="collection-item">
