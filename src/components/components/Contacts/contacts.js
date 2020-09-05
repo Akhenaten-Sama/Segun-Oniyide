@@ -28,6 +28,9 @@ const ContactMe = () => (
           <li class="collection-item">
             Room G49
           </li>
+          <li class="collection-item">
+            08130005574
+          </li>
         </ul>
       </div>
       <ContactUs />

@@ -49,8 +49,8 @@ export default class ContactUs extends React.Component{
     return (
     <div class="col s12 m6 input2">
     <form id="cancel"  onSubmit={this.sendEmail} >
-        <div class="card-panel grey lighten-3">
-          <h5>Please fill out this form</h5>
+        <div class="card-panel grey darken-3">
+          <h5 class='white-text'>Please fill out this form</h5>
           <div class="input-field">
             <input type="text" placeholder="name" name='name' required/>
 
