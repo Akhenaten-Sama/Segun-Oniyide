@@ -14,7 +14,7 @@ class  App extends React.Component {
   
     this.state = {
        preloaded: false,
-       islight: JSON.parse(localStorage.getItem('islight'))? JSON.parse(localStorage.getItem('islight')): true
+       islight: true
     }
   }
   

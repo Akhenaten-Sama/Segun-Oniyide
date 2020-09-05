@@ -22,7 +22,7 @@ const MyWork = () => (
             <img src="img/poster 2.jfif" alt=""/>
             <span class='card-title white-text'><b>Branding </b></span>
           </div>
-          <div class="card-content">
+          <div class="card-content black-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam est tempora recusandae explicabo facere amet.
           </div>
         </div>
@@ -37,7 +37,7 @@ const MyWork = () => (
             <img src='img/work5.jfif' alt=""/>
             <span class='card-title purple-text'><b>Logos</b></span>
           </div>
-          <div class="card-content">
+          <div class="card-content black-text" >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam est tempora recusandae explicabo facere amet.
           </div>
         </div> 
@@ -48,7 +48,7 @@ const MyWork = () => (
             <img src='img/poster 1.jfif' alt=""/>
             <span class='card-title'>Magazaine Designs</span>
           </div>
-          <div class="card-content">
+          <div class="card-content black-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam est tempora recusandae explicabo facere amet.
           </div>
         </div>
