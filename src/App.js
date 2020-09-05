@@ -63,7 +63,7 @@ const handleclick = ()=>{
     (<div className="App">
 
     <Switch>
-    <LayOut handleClick={handleclick}>
+    <LayOut handleClick={handleclick} islight={this.state.islight}>
     
     
     

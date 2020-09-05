@@ -1,8 +1,9 @@
 import React from 'react';
 import Logo from '../../../Logo.png'
+import Logo2 from '../../../Logo2.png'
 
 
-const Navbar = ({handleClick}) => { 
+const Navbar = ({handleClick,islight}) => { 
     
     
 
@@ -12,7 +13,7 @@ const Navbar = ({handleClick}) => {
 
 <div>
 <div className='switcher'><span><i onClick={handleClick} className="fa  fa-moon-o" aria-hidden="true"></i></span></div>
-<div className='logo-header'><a href='/' ><img src={Logo} alt='logo' width='150' /></a>
+<div className='logo-header'><a href='/' ><img src={islight?Logo2:Logo} alt='logo' width='150' /></a>
 
 </div>
 
